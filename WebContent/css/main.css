@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+table {
+  font-family: Courier New, sans-serif;
+  border-collapse: collapse; 
+  width: 60%;
+}
+
+table td, table th {
+  border: 1px solid #c0c0c0;
+  padding: 8px;
+}
+
+table tbody tr:nth-child(even){background-color: #cbe3fc;}
+
+table tbody tr:hover {background-color: #e6edff;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #82b0f7;
+  color: #e8e8e8;
+}
+
+.poista{
+	color: lightcoral;
+	text-decoration: underline;
+	cursor: pointer;	
+}
+
+.oikealle{
+	text-align: right;	
+	
+}
+
+#hae, #tallenna, #lisaa{
+	font-family: Courier New, bold();
+	color: #3ec111;
+	
+}
+
+
+#uusiVene, #takaisin{
+	color: #e7f4fe;	
+	cursor: pointer;	
+}
+
